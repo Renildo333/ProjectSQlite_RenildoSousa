@@ -1,6 +1,7 @@
 
-#Author: Renildo Sousa Silva
+#Developer: Renildo Sousa Silva
 #Email: sousarenildo61@gmail.com
+#Version: 1.0.0
 
 
 
@@ -43,8 +44,7 @@ class BancoDeDados:
 					senha VARCHAR(20) NOT NULL,
 					cpf VARCHAR(11) UNIQUE NOT NULL,
 					email TEXT NOT NULL
-			);
-			""")
+					);""")
 
 		except AttributeError:
 			print('Faça a conexão do banco antes de criar as tabelas.')
